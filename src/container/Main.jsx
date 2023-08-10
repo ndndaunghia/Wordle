@@ -201,7 +201,7 @@ const Main = () => {
     <MainWrapper>
       <Title />
       {alertData}
-      <div>{answer}</div>
+      {/* <div>{answer}</div> */}
       <Board dataTable={arrTable} />
       <Keyboard dataKeyboard={dataKeyboard} handleClickButton={handleClick} />
     </MainWrapper>
